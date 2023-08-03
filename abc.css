@@ -1,0 +1,68 @@
+.banner {
+    height: 100vh;
+    width: 100%;
+    background: url(),url(https://static.vecteezy.com/system/resources/previews/005/572/340/original/foggy-landscape-forest-in-the-morning-beautiful-sunrise-mist-cover-mountain-background-at-countryside-winter-free-photo.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+body{
+    margin:0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Raleway',sans-serif;
+    color: #fff;
+}
+.banner .navbar{
+    margin-top: 4%;
+
+}
+.navbar-brand{
+    color: #270c0c;
+    font: size 1.8em;
+    font-weight: 700;
+    margin-left: 10%;
+
+}
+.banner .nav{
+    margin-right:10% ;
+}
+.bannar .nav li a{
+    color:#aaa ;
+    font-size: 1.5em;
+    
+}
+.banner .info{
+    margin-top: 15%;
+    transform: translateY(-15%);
+    background-color: #4430189d;
+    padding: 20px 20px;
+    border-radius: 22px;
+}
+
+.banner .info h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.banner .info p{
+    font-size: 2em;
+    font-weight: 500;
+    color: #b38f8f;
+    letter-spacing: 2px;
+}
+.banner .info a{
+   margin-left: 50%;
+   transform: translateX(-50%);
+   color:#fff;
+   background: #a6102c8f;
+   padding: 10px 20px;
+   font-size: 1.5em;
+   font-weight: 500;
+}
+.bannar .info a:hover{
+    background:#a18080 ;
+
+}
