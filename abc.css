@@ -1,68 +1,92 @@
 .banner {
     height: 100vh;
     width: 100%;
-    background: url(),url(https://static.vecteezy.com/system/resources/previews/005/572/340/original/foggy-landscape-forest-in-the-morning-beautiful-sunrise-mist-cover-mountain-background-at-countryside-winter-free-photo.jpg);
+    background: url(), url(https://img.freepik.com/premium-photo/top-view-resumes-applicants-magnifying-glass-green-background-job-search-concept_35674-13811.jpg?w=900);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
-body{
-    margin:0;
+
+body {
+    margin: 0;
     padding: 0;
     background: #fff;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #fff;
 }
-.banner .navbar{
-    margin-top: 4%;
+img{
+    max-width: 26%;
+}
+
+.banner .navbar {
+    padding-top: 3px;
+    background: rgba(204, 176, 176, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(14.5px);
+    -webkit-backdrop-filter: blur(14.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 
 }
-.navbar-brand{
+
+.navbar-brand {
     color: #270c0c;
     font: size 1.8em;
     font-weight: 700;
     margin-left: 10%;
 
 }
-.banner .nav{
-    margin-right:10% ;
-}
-.bannar .nav li a{
-    color:#aaa ;
-    font-size: 1.5em;
-    
-}
-.banner .info{
-    margin-top: 15%;
-    transform: translateY(-15%);
-    background-color: #4430189d;
-    padding: 20px 20px;
-    border-radius: 22px;
+
+.banner .nav {
+    margin-right: 10%;
 }
 
-.banner .info h1{
+.bannar .nav li a {
+    color: #aaa;
+    font-size: 1.5em;
+
+}
+
+.banner .info {
+    margin-top: 15%;
+    transform: translateY(-15%);
+
+    padding: 20px 20px;
+    border-radius: 22px;
+    background: rgba(204, 176, 176, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.banner .info h1 {
     font-size: 2.5em;
     font-weight: 700;
     color: #fff;
     letter-spacing: 2px;
 }
-.banner .info p{
+
+.banner .info p {
     font-size: 2em;
     font-weight: 500;
-    color: #b38f8f;
+    color: #110a0a;
     letter-spacing: 2px;
 }
-.banner .info a{
-   margin-left: 50%;
-   transform: translateX(-50%);
-   color:#fff;
-   background: #a6102c8f;
-   padding: 10px 20px;
-   font-size: 1.5em;
-   font-weight: 500;
+
+.banner .info a {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: #a6102c8f;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: 500;
 }
-.bannar .info a:hover{
-    background:#a18080 ;
+
+.bannar .info a:hover {
+    background: #a18080;
 
 }
